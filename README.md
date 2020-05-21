@@ -6,8 +6,8 @@ Retooled an old project from Node.js/Express to C#/ASP.NET
  
  Handles the major API route for Listings
  api/listings
-    GET / - returns the full json object containing all listings from the mongo Database
-    GET /:ListingId - returns the json object containing the listing matching the id or NotFound if the resource doesn't exist
+  - GET / - returns the full json object containing all listings from the mongo Database
+  - GET /:ListingId - returns the json object containing the listing matching the id or NotFound if the resource doesn't exist
     
 # Models
   - Listing
