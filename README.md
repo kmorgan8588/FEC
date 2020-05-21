@@ -16,8 +16,8 @@ Retooled an old project from Node.js/Express to C#/ASP.NET
   - ZilhomeServerDatabaseSettings
   
   Handles the mapping from the mongoDB page to class objects for use in the ListingsController
-    [BsonElement("Name")] - refers to the mongodb property name
-    [JsonProperty("Name")] - renames when sending the Model as json
+   -  [BsonElement("Name")] - refers to the mongodb property name
+   -  [JsonProperty("Name")] - renames when sending the Model as json
     
    In order to match the nested format of the mongodb object, I had to make classes Details and Address to mimic the same effect within Listing
    
